@@ -1,0 +1,5 @@
+type_id,type_name,raw_crime_types
+1,Burglary,Burglary
+2,Robbery,Robbery
+3,Theft,Other theft;Shoplifting;Theft from the person
+4,Vehicle Crime,Bicycle theft;Vehicle crime

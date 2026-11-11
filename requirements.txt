@@ -1,0 +1,10 @@
+# Core (the package needs only these two)
+numpy>=1.23
+scipy>=1.9
+
+# Experiments: table/figure generation
+pandas>=1.5
+matplotlib>=3.6
+
+# Tests
+pytest>=7

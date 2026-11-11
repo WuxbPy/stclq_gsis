@@ -1,0 +1,49 @@
+{
+  "dataset": "avon_and_somerset",
+  "n_points": 139001,
+  "n_types": 4,
+  "n_periods": 12,
+  "type_names": [
+    "Burglary",
+    "Robbery",
+    "Theft",
+    "Vehicle Crime"
+  ],
+  "temporal_weight": "inverse_dt",
+  "target_rho": 0.001,
+  "bandwidth_m": 31.14272165298462,
+  "rho": 0.000984738638873436,
+  "kbar": 136.87965554204646,
+  "nnz": 18887408,
+  "build_s": 3.8751868790022854,
+  "global_s": 0.041370774000824895,
+  "n_perm": 999,
+  "serial_seconds": 42.73127231699982,
+  "parallel_seconds": 9.705959353999788,
+  "parallel_speedup": 4.402581008068041,
+  "n_jobs": 20,
+  "timing_rounds": 3,
+  "serial_rounds_s": [
+    41.997,
+    42.731,
+    43.122
+  ],
+  "parallel_rounds_s": [
+    9.284,
+    10.136,
+    9.706
+  ],
+  "bitwise_identical": true,
+  "block_null_seconds": 11.710377041999891,
+  "rss_mb": 1556.64453125,
+  "n_pairs_offdiag": 12,
+  "n_significant_fdr[type]": 5,
+  "n_significant_fdr[type_period]": 5,
+  "n_decision_flip": 0,
+  "max_abs_p_diff": 0.0,
+  "n_p_increase": 0,
+  "n_p_decrease": 0,
+  "mean_p_global": 0.5841666666666666,
+  "mean_p_block": 0.5841666666666666,
+  "mean_abs_log_clq": 0.5128940717510446
+}

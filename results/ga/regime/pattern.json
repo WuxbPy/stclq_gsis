@@ -1,0 +1,48 @@
+{
+  "real": {
+    "n": 139001,
+    "K": 4,
+    "nnz": 18887408,
+    "indptr_dtype": "int32",
+    "indices_dtype": "int32",
+    "data_dtype": "float64",
+    "csr_mb": 216.7,
+    "sorted": true,
+    "canonical": true,
+    "explicit_zeros": 0,
+    "perm_ms": 43.32,
+    "perm_ms_all": [
+      43.96,
+      42.85,
+      43.32,
+      42.81,
+      42.65,
+      49.62,
+      43.61
+    ]
+  },
+  "synthetic": {
+    "n": 139001,
+    "K": 4,
+    "nnz": 18897410,
+    "indptr_dtype": "int32",
+    "indices_dtype": "int32",
+    "data_dtype": "float64",
+    "csr_mb": 216.8,
+    "sorted": true,
+    "canonical": true,
+    "explicit_zeros": 0,
+    "perm_ms": 69.28,
+    "perm_ms_all": [
+      69.55,
+      68.37,
+      67.73,
+      74.55,
+      69.04,
+      69.28,
+      75.66
+    ]
+  },
+  "ratio_synth_over_real": 1.599,
+  "nnz_rel_diff_pct": 0.053
+}

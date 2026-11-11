@@ -1,0 +1,282 @@
+{
+  "cpu": 20,
+  "settings": {
+    "n": 100000,
+    "n_perm": 200,
+    "ps": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      20
+    ],
+    "weak_n": 100000,
+    "weak_n_perm_per_process": 50,
+    "weak_n_per_process": 20000,
+    "weak_n_perm": 50,
+    "repeat": 3
+  },
+  "strong": [
+    {
+      "p": 1,
+      "wall_s": 15.824941644001228,
+      "per_perm_ms": 79.12470822000614,
+      "speedup": 1.0,
+      "efficiency": 1.0,
+      "bitwise_identical": true
+    },
+    {
+      "p": 2,
+      "wall_s": 9.830427774999407,
+      "per_perm_ms": 49.152138874997036,
+      "speedup": 1.6097917614782722,
+      "efficiency": 0.8048958807391361,
+      "bitwise_identical": true
+    },
+    {
+      "p": 4,
+      "wall_s": 9.284461653998733,
+      "per_perm_ms": 46.422308269993664,
+      "speedup": 1.7044544135938748,
+      "efficiency": 0.4261136033984687,
+      "bitwise_identical": true
+    },
+    {
+      "p": 8,
+      "wall_s": 9.728257152000879,
+      "per_perm_ms": 48.64128576000439,
+      "speedup": 1.6266985336367679,
+      "efficiency": 0.20333731670459598,
+      "bitwise_identical": true
+    },
+    {
+      "p": 16,
+      "wall_s": 10.829612322000685,
+      "per_perm_ms": 54.148061610003424,
+      "speedup": 1.4612657566561622,
+      "efficiency": 0.09132910979101014,
+      "bitwise_identical": true
+    },
+    {
+      "p": 20,
+      "wall_s": 10.482549624999592,
+      "per_perm_ms": 52.41274812499796,
+      "speedup": 1.509646241622428,
+      "efficiency": 0.07548231208112141,
+      "bitwise_identical": true
+    }
+  ],
+  "startup_overhead": [
+    {
+      "n": 10000,
+      "nnz": 1489986,
+      "csr_mb": 22.735382080078125,
+      "serial_1perm_ms": 4.00194530002409,
+      "parallel_1perm_ms": 2.501468699938414,
+      "speedup": 1.5998382470756551,
+      "efficiency": 0.07999191235378275,
+      "overhead_1perm_ms": 2.3013714349372094
+    },
+    {
+      "n": 30000,
+      "nnz": 4469676,
+      "csr_mb": 68.20184326171875,
+      "serial_1perm_ms": 16.19874380003239,
+      "parallel_1perm_ms": 8.258825649954815,
+      "speedup": 1.9613858539465612,
+      "efficiency": 0.09806929269732806,
+      "overhead_1perm_ms": 7.448888459953196
+    },
+    {
+      "n": 100000,
+      "nnz": 14898736,
+      "csr_mb": 227.336669921875,
+      "serial_1perm_ms": 67.34487895000711,
+      "parallel_1perm_ms": 53.34996345000036,
+      "speedup": 1.2623228695015472,
+      "efficiency": 0.06311614347507735,
+      "overhead_1perm_ms": 49.98271950250001
+    },
+    {
+      "n": 300000,
+      "nnz": 44707804,
+      "csr_mb": 682.1869506835938,
+      "serial_1perm_ms": 443.4501269500288,
+      "parallel_1perm_ms": 192.91916539996237,
+      "speedup": 2.2986317923917126,
+      "efficiency": 0.11493158961958563,
+      "overhead_1perm_ms": 170.74665905246096
+    }
+  ],
+  "weak": [
+    {
+      "p": 1,
+      "n": 100000,
+      "n_perm": 50,
+      "wall_s": 3.5816635040009714,
+      "per_perm_ms": 71.63327008001943,
+      "efficiency": 1.0,
+      "prefix_identical": true
+    },
+    {
+      "p": 2,
+      "n": 100000,
+      "n_perm": 100,
+      "wall_s": 4.43060415599939,
+      "per_perm_ms": 44.3060415599939,
+      "efficiency": 0.8083916725332175,
+      "prefix_identical": true
+    },
+    {
+      "p": 4,
+      "n": 100000,
+      "n_perm": 200,
+      "wall_s": 8.344164939999246,
+      "per_perm_ms": 41.72082469999623,
+      "efficiency": 0.42924169521525485,
+      "prefix_identical": true
+    },
+    {
+      "p": 8,
+      "n": 100000,
+      "n_perm": 400,
+      "wall_s": 16.9178759130009,
+      "per_perm_ms": 42.294689782502246,
+      "efficiency": 0.21170881749100467,
+      "prefix_identical": true
+    },
+    {
+      "p": 16,
+      "n": 100000,
+      "n_perm": 800,
+      "wall_s": 40.75466002400026,
+      "per_perm_ms": 50.943325030000324,
+      "efficiency": 0.08788353287432024,
+      "prefix_identical": true
+    },
+    {
+      "p": 20,
+      "n": 100000,
+      "n_perm": 1000,
+      "wall_s": 53.15540387600049,
+      "per_perm_ms": 53.15540387600049,
+      "efficiency": 0.06738098561636707,
+      "prefix_identical": true
+    }
+  ],
+  "platform": {
+    "cpu": [
+      {
+        "p": 1,
+        "wall_s": 0.3676184834994274,
+        "throughput": 2.720211428111061,
+        "speedup": 1.0,
+        "efficiency": 1.0
+      },
+      {
+        "p": 2,
+        "wall_s": 0.37820166449910175,
+        "throughput": 5.288184023856273,
+        "speedup": 1.9440341913159427,
+        "efficiency": 0.9720170956579713
+      },
+      {
+        "p": 4,
+        "wall_s": 0.4028617075000511,
+        "throughput": 9.928965512314154,
+        "speedup": 3.6500712443550443,
+        "efficiency": 0.9125178110887611
+      },
+      {
+        "p": 8,
+        "wall_s": 0.7733734104995165,
+        "throughput": 10.344291504453013,
+        "speedup": 3.8027527557430263,
+        "efficiency": 0.4753440944678783
+      },
+      {
+        "p": 16,
+        "wall_s": 2.9139711709995026,
+        "throughput": 5.490788707601366,
+        "speedup": 2.018515417904195,
+        "efficiency": 0.1261572136190122
+      },
+      {
+        "p": 20,
+        "wall_s": 3.828509789000236,
+        "throughput": 5.223964702261537,
+        "speedup": 1.920425981699924,
+        "efficiency": 0.09602129908499621
+      }
+    ],
+    "bandwidth": [
+      {
+        "p": 1,
+        "per_process_gbs": 19.130689388378038,
+        "aggregate_gbs": 19.130689388378038,
+        "relative": 1.0
+      },
+      {
+        "p": 2,
+        "per_process_gbs": 15.13135932839396,
+        "aggregate_gbs": 30.26271865678792,
+        "relative": 1.5818937855513264
+      },
+      {
+        "p": 4,
+        "per_process_gbs": 11.511285231777238,
+        "aggregate_gbs": 46.04514092710895,
+        "relative": 2.406873060992854
+      },
+      {
+        "p": 8,
+        "per_process_gbs": 6.107070267743978,
+        "aggregate_gbs": 48.85656214195183,
+        "relative": 2.5538317595408957
+      },
+      {
+        "p": 16,
+        "per_process_gbs": 3.1062648057291753,
+        "aggregate_gbs": 49.700236891666805,
+        "relative": 2.5979323527075757
+      },
+      {
+        "p": 20,
+        "per_process_gbs": 2.4745245820783355,
+        "aggregate_gbs": 49.490491641566706,
+        "relative": 2.5869685423690147
+      }
+    ],
+    "stream_gb": 0.256,
+    "peak_aggregate_gbs": 49.700236891666805,
+    "max_cpu_speedup": 3.8027527557430263,
+    "max_bw_relative": 2.5979323527075757,
+    "weak_control": [
+      {
+        "p": 1,
+        "efficiency": 1.0
+      },
+      {
+        "p": 2,
+        "efficiency": 0.7909468927756632
+      },
+      {
+        "p": 4,
+        "efficiency": 0.6017182652482135
+      },
+      {
+        "p": 8,
+        "efficiency": 0.31922896994261196
+      },
+      {
+        "p": 16,
+        "efficiency": 0.16237077204422348
+      },
+      {
+        "p": 20,
+        "efficiency": 0.12934842711845074
+      }
+    ]
+  }
+}

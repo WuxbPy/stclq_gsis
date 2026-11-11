@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stclq"
+version = "0.1.0"
+description = "Scalable permutation inference for spatio-temporal co-location quotients (GCLQ/LCLQ/GTWCLQ + attribute-conditioned member)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Xibo Wu" },
+    { name = "Weiping Hu" },
+]
+keywords = [
+    "co-location quotient",
+    "spatial association",
+    "spatio-temporal",
+    "permutation test",
+    "multiple testing",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.5"]
+# Everything the experiment drivers need.  numba is an optional acceleration backend;
+# the package runs on the SciPy sparse path without it.
+full = ["pandas>=1.5", "matplotlib>=3.6", "numba>=0.57"]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/WuxbPy/stclq_gsis"
+Repository = "https://github.com/WuxbPy/stclq_gsis"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["stclq"]

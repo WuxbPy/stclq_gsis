@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the article listed under references."
+title: "stclq: scalable permutation inference for spatio-temporal co-location quotients"
+abstract: >-
+  Reference implementation of the spatio-temporal co-location quotient (STCLQ) with
+  global and local variants, four permutation nulls, bandwidth selection and
+  diagnostics, together with the experiment drivers, results, figures and manuscript
+  sources of the accompanying paper. The permutation engine builds the spatial
+  neighbourhood structure once and reuses it, so a single permutation costs one sparse
+  matrix-matrix product rather than a traversal of all N^2 ordered pairs.
+type: software
+version: 0.1.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/WuxbPy/stclq_gsis"
+authors:
+  - family-names: Wu
+    given-names: Xibo
+    affiliation: "Guangzhou Academy of Social Sciences, Guangzhou, China"
+    orcid: "https://orcid.org/0009-0003-7027-6678"
+  - family-names: Hu
+    given-names: Weiping
+    affiliation: "School of Geography, South China Normal University, Guangzhou, China"
+    orcid: "https://orcid.org/0009-0005-7065-2746"
+keywords:
+  - co-location quotient
+  - spatial association
+  - spatio-temporal statistics
+  - permutation test
+  - multiple testing
+  - spatial point pattern
+references:
+  - type: article
+    title: >-
+      Two null hypotheses for one statistic: structure-invariant permutation inference
+      for spatio-temporal co-location quotients at city scale
+    authors:
+      - family-names: Wu
+        given-names: Xibo
+        orcid: "https://orcid.org/0009-0003-7027-6678"
+      - family-names: Hu
+        given-names: Weiping
+        orcid: "https://orcid.org/0009-0005-7065-2746"
+    status: submitted
+    year: 2026

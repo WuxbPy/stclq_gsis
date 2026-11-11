@@ -1,0 +1,14 @@
+{
+  "_comment": [
+    "Authoritative record of the experimental environment (frozen provenance).",
+    "Principle: record the machine the experiments actually ran on. Render scripts read this first,",
+    "so re-rendering on another machine does not replace the host details with the render machine and misreport the environment.",
+    "If you rerun all experiments (exp_*.py) locally, update this file to match."
+  ],
+  "cpu_model": "12th Gen Intel(R) Core(TM) i7-12700",
+  "cpu_cores": 20,
+  "ram_gb": 63,
+  "python": "3.13.12",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1"
+}

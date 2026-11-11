@@ -1,0 +1,13 @@
+type_a_id,type_b_id,type_a,type_b,stclq,p_value,significant,category,null
+1,2,Burglary,Robbery,1.232,0.002,True,Attraction,type
+1,3,Burglary,Theft,1.0999,0.002,True,Attraction,type
+1,4,Burglary,Vehicle Crime,0.6775,1.0,False,Not significant,type
+2,1,Robbery,Burglary,0.3228,1.0,False,Not significant,type
+2,3,Robbery,Theft,1.3258,0.002,True,Attraction,type
+2,4,Robbery,Vehicle Crime,0.4151,1.0,False,Not significant,type
+3,1,Theft,Burglary,0.1798,1.0,False,Not significant,type
+3,2,Theft,Robbery,0.8272,1.0,False,Not significant,type
+3,4,Theft,Vehicle Crime,0.2201,1.0,False,Not significant,type
+4,1,Vehicle Crime,Burglary,0.534,1.0,False,Not significant,type
+4,2,Vehicle Crime,Robbery,1.2485,0.002,True,Attraction,type
+4,3,Vehicle Crime,Theft,1.0612,0.002,True,Attraction,type

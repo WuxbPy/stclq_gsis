@@ -1,0 +1,49 @@
+{
+  "dataset": "city_of_london",
+  "n_points": 15776,
+  "n_types": 4,
+  "n_periods": 12,
+  "type_names": [
+    "Burglary",
+    "Robbery",
+    "Theft",
+    "Vehicle Crime"
+  ],
+  "temporal_weight": "inverse_dt",
+  "target_rho": 0.001,
+  "bandwidth_m": 2.0,
+  "rho": 0.011684356215207633,
+  "kbar": 184.3324036511156,
+  "nnz": 2892252,
+  "build_s": 0.5560673260006297,
+  "global_s": 0.006386742999893613,
+  "n_perm": 999,
+  "serial_seconds": 6.433317445000284,
+  "parallel_seconds": 0.8805056909986888,
+  "parallel_speedup": 7.3063893973285685,
+  "n_jobs": 20,
+  "timing_rounds": 3,
+  "serial_rounds_s": [
+    6.533,
+    6.387,
+    6.433
+  ],
+  "parallel_rounds_s": [
+    0.88,
+    0.894,
+    0.881
+  ],
+  "bitwise_identical": true,
+  "block_null_seconds": 1.2190209110012802,
+  "rss_mb": 1556.64453125,
+  "n_pairs_offdiag": 12,
+  "n_significant_fdr[type]": 1,
+  "n_significant_fdr[type_period]": 1,
+  "n_decision_flip": 0,
+  "max_abs_p_diff": 0.005333333333333329,
+  "n_p_increase": 1,
+  "n_p_decrease": 0,
+  "mean_p_global": 0.8413777777777778,
+  "mean_p_block": 0.8418222222222221,
+  "mean_abs_log_clq": 0.2920407319391944
+}
